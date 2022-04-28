@@ -16,7 +16,7 @@ const Detaylar = ({ kelime }) => {
     return (
         <div>
             {kelime.map(kelime => (
-                <div className="">
+                <div >
                     <WordCard baslik={kelime.madde} aciklama={kelime.lisan} />
                     <div className=" h-wordcard m-5 mt-0 rounded-3xl shadow-xl bg-zinc-400 flex flex-col justify-evenly">
                         {kelime.anlamlarListe.map(item => (
